@@ -134,3 +134,19 @@ html,
 body {
   height: 100%;
 }
+.navMenu {
+  font-size: 12pt;
+  font-weight: bold;
+  text-align: right;
+}
+.navMenu nav {
+  display: inline-flex;
+  flex-direction: row;
+  align-content: unset;
+  width: 30%;
+  justify-content: space-around;
+}
+.navMenu a {
+  text-decoration: none;
+  color: black;
+}
