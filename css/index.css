@@ -1,6 +1,6 @@
 /* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
+v2.0 | 20110126
+License: none (public domain)
 */
 html,
 body,
@@ -156,4 +156,22 @@ header {
   height: 30em;
   background: lightgrey;
   border-radius: 5px;
+}
+header img {
+  width: 20em;
+  padding: 30px;
+}
+header h1 {
+  font-size: 34px;
+  padding: 6px;
+}
+header h4 {
+  font-size: 18px;
+  padding: 10px;
+  padding-bottom: 20px;
+  border-bottom: 1pt solid black;
+}
+header p {
+  padding-top: 12px;
+  margin: 10px;
 }
