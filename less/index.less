@@ -17,13 +17,19 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup, 
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
+
+// @import url(//"https://fonts.google.com/specimen/IBM+Plex+Mono");
+
 margin: 0;
 padding: 0;
 border: 0;
+font-family: 'ibmplexsans', sans serif;
 font-size: 100%;
-font: Impact;
 vertical-align: baseline;
 }
+
+
+  
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
@@ -59,6 +65,30 @@ width: 80%;
 margin: 0 auto;
 
 }
+
+
+
+// Mixins
+
+.h4Stylz() {
+	font-size: 18px;
+	
+}
+
+.tablestylz {
+	border: 1pt solid black;
+
+		th {
+			.h4Stylz()
+
+				td {
+
+				}
+		}
+}
+
+
+
 
 // Styling for the Nav element
 
@@ -108,27 +138,40 @@ header {
 
 }
 
-.bodyStuff {
-
-	.resumeBody {
-
-		.goodStuff {
-			
-			table th td {
-				width: 100%;
-				height: 50px;
-				border: 1pt solid black;
-				
-			}
-		}
-	}
-}
-
 // Styling for the SectionClass "bodyStuff" container
 
 .bodyStuff {
 	display: flex;
-    flex-direction: row;
+	flex-direction: row;
+	width: 70%;
+
+		.resumeBody {
+			width: 70%;
+
+			h4 {
+				font-size: 18pt;
+				p {
+					width: 50%;
+					height: auto;
+				}
+			}
+
+
+		}
+}
+
+// Styling for the goodStuff table
+
+.goodStuff {
+
+		table {
+			.tablestylz() {
+
+			}
+						
+
+		}
+
 }
 
 
