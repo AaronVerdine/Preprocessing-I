@@ -180,3 +180,7 @@ header p {
   height: 50px;
   border: 1pt solid black;
 }
+.bodyStuff {
+  display: flex;
+  flex-direction: row;
+}
