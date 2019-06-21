@@ -86,7 +86,6 @@ video {
   margin: 0;
   padding: 0;
   border: 0;
-  font-family: 'ibmplexsans', sans serif;
   font-size: 100%;
   vertical-align: baseline;
 }
@@ -136,11 +135,8 @@ body {
   width: 80%;
   margin: 0 auto;
 }
-.tablestylz {
-  border: 1pt solid black;
-}
-.tablestylz th {
-  font-size: 18px;
+body {
+  width: 800px;
 }
 .navMenu {
   font-size: 12pt;
@@ -185,6 +181,7 @@ header p {
   display: flex;
   flex-direction: row;
   width: 70%;
+  padding-top: 50px;
 }
 .bodyStuff .resumeBody {
   width: 70%;
@@ -195,4 +192,49 @@ header p {
 .bodyStuff .resumeBody h4 p {
   width: 50%;
   height: auto;
+}
+.goodStuff {
+  width: 320px;
+  margin: 0px;
+  padding-left: 5px;
+}
+.goodStuff table {
+  width: 400px;
+  height: 200px;
+  margin-left: 45%;
+}
+.goodStuff table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+.goodStuff table td {
+  padding-top: 10px;
+  padding-left: 10px;
+}
+.goodStuff th {
+  font-size: 18pt;
+}
+.workHistory {
+  padding-top: 50px;
+  width: 700px;
+  height: 250px;
+}
+.workHistory h4 {
+  font-size: 18pt;
+  padding-bottom: 30px;
+}
+.workHistory table {
+  width: 100%;
+  height: 60%;
+}
+.workHistory table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+.workHistory table td {
+  padding-top: 10px;
+  padding-left: 10px;
+}
+footer {
+  padding-top: 50px;
+  font-size: 12px;
+  text-align: center;
 }
