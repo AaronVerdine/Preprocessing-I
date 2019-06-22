@@ -1,12 +1,18 @@
 <!doctype html>
 
 <html lang="en">
+
 <head>
   <meta charset="utf-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <title>My Resume</title>
 
   <link rel="stylesheet" href="css/index.css">
+  <!-- <link rel="stylesheet" href="https://fonts.google.com/specimen/IBM+Plex+Mono">
+  <link rel="stylesheet" href="https://fonts.google.com/specimen/IBM+Plex+Serif">
+  <link rel="stylesheet" href="https://fonts.google.com/specimen/IBM+Plex+Sans+Condensed"> -->
 
   <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
@@ -14,6 +20,144 @@
 </head>
 
 <body>
-  <h1>My Resume</h1>
+  <div>
+
+    <!-- The navMenu serves as the main navigation element
+   on the page
+
+  [X] Remove underline in nav links
+  [X] 12pt black font
+  [X] Insert portfolio URL in "Portfolio" tag
+  [X] Justify content on right side of page -->
+
+    <div class="navMenu">
+      <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="https://aaronverdine.github.io/portfolio-website/">Portfolio</a>
+        <a href="#">Contact</a>
+      </nav>
+    </div>
+
+    <!-- This is the top header section which includes the nav menu, 
+Name, and a short blurb about myself.
+
+[X] Header section should be encompassed by light gray box
+[X] Find and add professional headshot
+[X] Either remove "Magnum Macs" button or link it to portfolio message page
+[X] Add 1pt lightgray border between <h4> and <p> -->
+
+    <header>
+      <div class="Introduction">
+
+        <img src="Me_with_camera.jpg" alt="Me With Camera">
+
+        <h1>Aaron M. Verdine - Web Developer</h1>
+
+        <h4>Programmer. Collaborator. Visionary.</h4>
+
+        <p>In addition to programming dynamic UI's, applications, and Websites, I also specialize in repairing late
+          model Apple products</p>
+      </div>
+    </header>
+
+    <!-- The resumeBody section is intented to introduce myself with a 
+short mission statement.
+
+[X] The font should be around 10-12pt
+[X] The text should be justified left -->
+
+    <section class="bodyStuff">
+      <div class="resumeBody">
+        <h4>About Me</h4>
+        <p>A month ago I was experimenting with online coding tutorials. 
+          Now I'm desiging intuitive User Inteerfaces and fully responsive, 
+          and modern websites. I have a passion for learning new skills and 
+          further strengthing my current skillset. My breadth of customer service
+          experiences have given me the necessary skills to work as part of a team
+          and collaborate with various temas and departments. These skills combined
+          make me a strong and productive addition to your development team!</p>
+      </div>
+
+      <!-- The goodStuff section is a table of things that I'm good at. 
+
+[ ] The table should have a 1 pt border on alternatings rows
+[ ] The table's border should surround the border -->
+
+      <div class="goodStuff">
+        <table>
+          <tr>
+            <th>Stuff I'm Good At:</th>
+          </tr>
+          <tr>
+            <td>Mac & CPU Repair</td>
+          </tr>
+          <tr>
+            <td>Video Games</td>
+          </tr>
+          <tr>
+            <td>Making Beer At Home</td>
+          </tr>
+          <tr>
+            <td>Designing Dynamic UI's</td>
+          </tr>
+        </table>
+      </div>
+    </section>
+
+    <!-- The workHistory section is a table describing 
+my work history. 
+
+[ ] The column headings should be bold type
+as well as the year text in the first column.
+[ ] The table should have a 1pt border between rows
+[ ] The table should show alternating grey and white shades
+in between rows-->
+
+    <div class="workHistory">
+      <h4>Work History</h4>
+
+      <table>
+        <tr>
+          <th>Yrs</th>
+          <th>Company</th>
+          <th>Title</th>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>DARCARS</td>
+          <td>Certified Parts Professional</td>
+        </tr>
+        <tr>
+          <td>1</td>
+          <td>Intellor Corp</td>
+          <td>Telecoference Specialist</td>
+        </tr>
+        <tr>
+          <td>1</td>
+          <td>Savory Gourmet</td>
+          <td>Catering Chef</td>
+        </tr>
+      </table>
+
+      <!-- The footer section wraps up the resume
+
+      [ ] Footer should include a dark block
+      [ ] White or light text on top -->
+
+      <footer>
+        <h6>Copyright Awesomeness 2018</h6>
+      </footer>
+
+    </div>
+
+
+
+
+
+
+  </div>
+
 </body>
+
 </html>
